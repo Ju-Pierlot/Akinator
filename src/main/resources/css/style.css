@@ -1,0 +1,44 @@
+.menu-button{
+    -fx-padding: 8 15 15 15;
+    -fx-background-insets: 0,0 0 5 0, 0 0 6 0, 0 0 7 0;
+    -fx-background-radius: 8;
+    -fx-background-color:
+            linear-gradient(from 0% 93% to 0% 100%, #dadcfa 0%, #a7bdf6 100%),
+            #b7cdff,
+            #dadcfa,
+            radial-gradient(center 50% 50%, radius 100%, #dadcfa, #c2ccf8);
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.75) , 4,0,0,1 );
+}
+.menu-button:hover{
+    -fx-background-color:
+            linear-gradient(from 0% 93% to 0% 100%, #caccea 0%, #97ade6 100%),
+            #97ade6,
+            #caccea,
+            radial-gradient(center 50% 50%, radius 100%, #caccea, #b2bce8);
+}
+.menu-button:pressed{
+    -fx-padding: 10 15 13 15;
+    -fx-background-insets: 2 0 0 0,2 0 3 0, 2 0 4 0, 2 0 5 0;
+}
+.menu-title{
+    -fx-effect: dropshadow(three-pass-box, #666, 7, 0, 0, 0);
+}
+.list-cell{
+    -fx-text-fill: #000;
+    -fx-font-size: 30px;
+    -fx-font-family: "Gill Sans Ultra Bold Condensed", sans-serif;
+}
+.list-view .list-cell:even {
+    -fx-background-color: #fcfcfc;
+}
+.list-view, .split-pane {
+    -fx-background-insets: 0;
+    -fx-padding: 0;
+}
+.list-view .list-cell:odd {
+    -fx-background-color: #fdfdfd;
+}
+.list-view .list-cell:filled:selected:focused, .list-cell:filled:selected{
+    -fx-background-color: linear-gradient(to left, #ffffff, #fefdfc, #eaecfa, #c2ccf8, #a7bdf6);
+    -fx-font-size: 38px;
+}

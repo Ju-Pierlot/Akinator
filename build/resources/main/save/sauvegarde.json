@@ -1,0 +1,87 @@
+{
+  "allCharacters": {
+    "characters": [
+      {
+        "name": "Camille",
+        "imagePath": "camille.jpg",
+        "keys": [
+          "19Est-ce une fille",
+          "1050"
+        ]
+      },
+      {
+        "name": "Papa",
+        "imagePath": "papa.jpg",
+        "keys": [
+          "32Porte-t\u0027il/elle des l",
+          "18Est-ce "
+        ]
+      },
+      {
+        "name": "Emma watson",
+        "imagePath": "",
+        "keys": [
+          "1400",
+          "19Est-ce une fille"
+        ]
+      },
+      {
+        "name": "Julien",
+        "imagePath": "julien.jpg",
+        "keys": [
+          "1050",
+          "18Est-ce "
+        ]
+      },
+      {
+        "name": "Maman",
+        "imagePath": "maman.jpg",
+        "keys": [
+          "19Est-ce une fille",
+          "32Porte-t\u0027il/elle des l",
+          "1050"
+        ]
+      },
+      {
+        "name": "Robin",
+        "imagePath": "robin.jpg",
+        "keys": [
+          "32Porte-t\u0027il/elle des l",
+          "1050",
+          "18Est-ce "
+        ]
+      }
+    ],
+    "keys": [
+      "19Est-ce une fille",
+      "1050",
+      "32Porte-t\u0027il/elle des l",
+      "18Est-ce ",
+      "1400"
+    ]
+  },
+  "allQuestions": {
+    "questions": {
+      "1400": {
+        "title": "Est-ce un/une acteur/rice ?",
+        "key": "1400"
+      },
+      "32Porte-t\u0027il/elle des l": {
+        "title": "Porte-t\u0027il/elle des lunettes ?",
+        "key": "32Porte-t\u0027il/elle des l"
+      },
+      "1050": {
+        "title": "A t\u0027il/elle fait une coloration ?",
+        "key": "1050"
+      },
+      "19Est-ce une fille": {
+        "title": "Est-ce une fille ?",
+        "key": "19Est-ce une fille"
+      },
+      "18Est-ce ": {
+        "title": "Est-ce un garçon ?",
+        "key": "18Est-ce "
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="model.characters.CharactersTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2020-08-16T15:54:11" hostname="DESKTOP-BJRSV6T" time="0.005">
+  <properties/>
+  <testcase name="addNullCharacter" classname="model.characters.CharactersTest" time="0.001"/>
+  <testcase name="removeNullCharacter" classname="model.characters.CharactersTest" time="0.0"/>
+  <testcase name="removeCharacter" classname="model.characters.CharactersTest" time="0.0"/>
+  <testcase name="containNullCharacter" classname="model.characters.CharactersTest" time="0.0"/>
+  <testcase name="removeCharactersWithAKeyAndGetTheSize" classname="model.characters.CharactersTest" time="0.001"/>
+  <testcase name="removeCharactersWithAKey" classname="model.characters.CharactersTest" time="0.0"/>
+  <testcase name="cloneCharacters" classname="model.characters.CharactersTest" time="0.0"/>
+  <testcase name="addCharacter" classname="model.characters.CharactersTest" time="0.0"/>
+  <testcase name="sizeCharacters" classname="model.characters.CharactersTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
